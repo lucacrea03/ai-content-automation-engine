@@ -1,6 +1,5 @@
 """
 Configuration file for Car Blog Scraper
-Copy this file to config.py and fill in your actual credentials
 """
 
 # WordPress API Configuration
