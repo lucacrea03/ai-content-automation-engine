@@ -54,9 +54,9 @@ AUTHORS = {
 }
 
 # Website Selection
-# 0 = autoblog (US)
-# 1 = carblog (Brazil)
-# 2 = 16valvulas (Argentina)
+# 0 = blog 1
+# 1 = blog 2
+# 2 = blog 3
 WEBSITE_INDEX = 0
 ```
 
