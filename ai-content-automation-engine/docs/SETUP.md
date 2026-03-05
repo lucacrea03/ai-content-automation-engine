@@ -6,7 +6,7 @@
 
 ```bash
 git clone <your-repo-url>
-cd car-blog-scraper
+cd ai-content-automation-engine
 ```
 
 ### 2. Install Dependencies
@@ -68,7 +68,7 @@ To create one:
 1. Log into your WordPress admin panel
 2. Go to Users → Profile
 3. Scroll down to "Application Passwords"
-4. Enter a name (e.g., "Car Blog Scraper")
+4. Enter a name (e.g., "AI content automation engine")
 5. Click "Add New Application Password"
 6. Copy the generated password and use it in your config
 
@@ -99,7 +99,7 @@ python main.py
 ### Import Errors
 If you get import errors, make sure you're running from the project root directory:
 ```bash
-cd /path/to/car-blog-scraper
+cd /path/to/ai-content-automation-engine
 python main.py
 ```
 
@@ -137,7 +137,7 @@ git status
 
 ```bash
 git add .
-git commit -m "Initial commit - car blog scraper"
+git commit -m "Initial commit - ai content automation engine"
 git branch -M main
 git remote add origin <your-repo-url>
 git push -u origin main
@@ -165,5 +165,3 @@ git push
 3. Check image uploads are working
 4. Verify categories are being assigned properly
 5. Scale up to process multiple articles
-
-Happy scraping! 🚗
