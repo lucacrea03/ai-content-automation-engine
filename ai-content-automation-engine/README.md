@@ -1,10 +1,10 @@
-# Car Blog Scraper
+# Ai Content Automation Engine
 
 A Python application that scrapes automotive articles from various sources, translates them to Spanish using Google AI, and publishes them to a WordPress blog.
 
 ## Features
 
-- 🚗 Scrapes articles from multiple automotive news sources
+- 🚗 Automates AI-driven content aggregation from multiple news sources.
 - 🌐 Translates content from English/Portuguese to Spanish using Google Generative AI
 - 📝 Automatically formats content with proper HTML tags
 - 🖼️ Handles featured and additional images
@@ -12,18 +12,12 @@ A Python application that scrapes automotive articles from various sources, tran
 - 👤 Randomly assigns authors to posts
 - 🔄 Publishes directly to WordPress via REST API
 
-## Supported Sources
-
-- **Autoblog** (US)
-- **Car.blog.br** (Brazil)
-- **16 Valvulas** (Argentina)
-
 ## Installation
 
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd car-blog-scraper
+cd ai-content-automation-engine
 ```
 
 2. Install required dependencies:
@@ -62,7 +56,7 @@ AUTHORS = {
     'Author3': 3
 }
 
-# Website Selection (0=Autoblog, 1=Carblog, 2=16valvulas)
+# Website Selection (0=blog1, 1=blog2, 2=blog3)
 WEBSITE_INDEX = 0
 ```
 
@@ -84,7 +78,7 @@ The script will:
 ## Project Structure
 
 ```
-car-blog-scraper/
+ai-content-automation-engine/
 ├── config/
 │   ├── __init__.py
 │   ├── config.py           # Your actual config (gitignored)
@@ -132,7 +126,3 @@ car-blog-scraper/
 ## License
 
 MIT License
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
